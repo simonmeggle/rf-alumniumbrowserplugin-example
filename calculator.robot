@@ -17,7 +17,7 @@ Do Calculations With AI
     Take Screenshot  EMBED  id=output
 
 Do Calculations With BrowserLib
-    New AI Page  ${URL}
+    New Page  ${URL}
     Click  id=2
     Click  id=add
     Click  id=2
