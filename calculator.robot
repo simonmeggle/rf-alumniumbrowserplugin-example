@@ -13,7 +13,7 @@ ${URL}    https://seleniumbase.io/apps/calculator
 Do Calculations With AI
     # robotcode: ignore
     New AI Page  ${URL}
-    Ai Do   Calculate the sum of 2 + 2. Then Multiply the result by 12 and then divide it by 6"
+    AI Do   Calculate the sum of 2 + 2. Then Multiply the result by 12 and then divide it by 6
     AI Check  Result is 8
     Take Screenshot  EMBED  id=output
 
