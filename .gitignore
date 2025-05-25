@@ -34,3 +34,6 @@ playwright-log.txt
 environment/output
 
 .alumnium-cache.sqlite
+*.sqlite-journal
+
+results

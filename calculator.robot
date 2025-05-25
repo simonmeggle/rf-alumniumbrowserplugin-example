@@ -1,6 +1,7 @@
 *** Settings ***
-Library   Browser  plugins=${CURDIR}/AlumniumPlugin.py
+Library   Browser  plugins=AlumniumBrowserPlugin
 Suite Setup  Suite Initialization
+
 *** Variables ***
 ${AI_PROVIDER}    
 ${AI_MODEL}    

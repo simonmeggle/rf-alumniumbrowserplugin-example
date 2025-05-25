@@ -7,9 +7,8 @@ dependencies:
 - pip:
   - robotframework==7.2
   - robotframework-browser==19.3
-  - alumnium
-  - alumnirobot
-  - faker
+  - robotframework-alumniumbrowserplugin==0.1.3
+#  - alumnium
   - robotcode-runner
 
 rccPostInstall:
