@@ -1,0 +1,4 @@
+default-profiles = "default"
+[variables]
+AI_PROVIDER="openai"    
+AI_MODEL="gpt-4o"
