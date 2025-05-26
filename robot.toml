@@ -1,4 +1,4 @@
 default-profiles = "default"
 [variables]
-# AI_MODEL="google/gemini-2.0-flash"
-AI_MODEL="openai/gpt-4o"
+AI_MODEL="google/gemini-2.0-flash"
+# AI_MODEL="openai/gpt-4o"
