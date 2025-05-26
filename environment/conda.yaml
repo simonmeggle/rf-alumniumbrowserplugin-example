@@ -12,4 +12,5 @@ dependencies:
   - robotcode-runner
 
 rccPostInstall:
-- rfbrowser init
+- rfbrowser init --skip-browsers
+- playwright install chromium
