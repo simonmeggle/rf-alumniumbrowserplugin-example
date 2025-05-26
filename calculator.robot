@@ -3,7 +3,6 @@ Library   Browser  plugins=AlumniumBrowserPlugin
 Suite Setup  Suite Initialization
 
 *** Variables ***
-${AI_PROVIDER}    
 ${AI_MODEL}    
 ${AI_API_KEY}    
 ${URL}    https://seleniumbase.io/apps/calculator
@@ -38,6 +37,5 @@ Do Calculations With BrowserLib
 
 Suite Initialization
     New AI Browser  browser=chromium  headless=False
-    ...    ai_provider=${AI_PROVIDER}    
     ...    ai_model=${AI_MODEL}
     ...    api_key=${AI_API_KEY}
